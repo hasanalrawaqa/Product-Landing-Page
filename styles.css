@@ -20,7 +20,6 @@ body {
 /* Header Styles */
 header {
     background-color: #fff;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -45,9 +44,17 @@ nav {
     text-decoration: none;
     color: #333;
 }
+ul{
+    display: flex;
+    flex-direction: row;
 
+}
 .nav-link:hover {
     color: #0077b6;
+}
+
+#section1{
+    margin-top: 100px;
 }
 
 /* Main Section Styles */
